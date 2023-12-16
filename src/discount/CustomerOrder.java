@@ -11,7 +11,7 @@ public class CustomerOrder {
         this.billAmount = billAmount;
         this.discountType = discountType;
     }
-
+    //
     public double getBillAmount() {
         double tempBill;
         switch (discountType) {

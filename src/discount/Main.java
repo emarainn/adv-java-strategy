@@ -19,7 +19,7 @@ public class Main {
             System.out.printf("%-20s $%7.2f\n", order.getCustomerName(), order.getBillAmount());
             total += order.getBillAmount();
         }
-
+        //
         System.out.printf("%-20s $%7.2f", "Total: ", total);
     }
 }
